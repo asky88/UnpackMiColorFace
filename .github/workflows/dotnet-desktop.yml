@@ -83,5 +83,4 @@ jobs:
 
     - name: .Net Build
       uses: EasyDesk/action-dotnet-build@v1.0.4
-            
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
+          
