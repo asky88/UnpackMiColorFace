@@ -87,7 +87,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
       with:
-        name: 'UnpackMiColorFace.exe'
+        name: 'UnpackMiColorFace'
         path: "./bin/Release/*"
 
           
